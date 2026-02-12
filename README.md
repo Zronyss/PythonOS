@@ -25,3 +25,15 @@ _ENG_:
 To run PythonOS, you need to install Python on your operating system from the official website. https://www.python.org / . Alternatively, if you are from Android, install Pydroid 3 from Google Play.
 
 /// Installing libraries for a real browser
+
+**On Android** , all you need to do is go to the hamburger menu (three lines from the top left), click "Pip", and enter "requests beautifulsoup4 html2text".
+
+ **On Windows** , follow these steps:
+Go to the file explorer, find the "PythonOS" or "os" folder, remove everything from the address bar, replace it with "cmd", and press "Enter". After that, we write the following commands:
+py --version (check the version, it should be 3.13)
+py -m pip install requests
+py -m pip install beautifulsoup4
+py -m pip install html2text
+
+ We start the project.
+P.S. on Windows, there will be hieroglyphs instead of text in the browser, I don't know how to fix it yet
